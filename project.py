@@ -140,7 +140,16 @@ def showScreen():
     if state=='Level 1':
         alien.gabung(posisi_alien[0],posisi_alien[1])
         bentuk()
-         
+        colisionfull(100,-400,-400,-350)  
+        colisionfull(400,-100,-600,-550) 
+        colisionfull(400,350,-600,600) 
+        colisionfull(-350,-400,-600,600)
+        colisionfull(100,-400,550,600)   
+        colisionfull(400,-200,350,400) 
+        colisionfull(100,50,-400,-80) 
+        colisionfull(-150,-200,-200,400) 
+        colisionfull(400,50,100,150) 
+        finish(700,100,550,600) 
     elif state=='Winner':
         drawText('W I N N E R !!',-50,200,26, 255, 0)
         drawText('Click Next to Level 2',-50,-200,60, 50, 240)
