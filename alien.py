@@ -19,7 +19,7 @@ def Circle_polygon(x_pos, y_pos, radius, sides):
     for i in range(100):    
         cosine= radius * cos(i*2*pi/sides) + x_pos  
         sine  = radius * sin(i*2*pi/sides) + y_pos   
-        glVertex2f(cosine,sine)
+        glVertex2f(cosine,sine) 
 
 def lingkaran_c(x,y):
     glColor3ub(15, 252, 3)
